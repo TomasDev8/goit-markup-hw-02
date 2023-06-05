@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.color-button {
+    color: white;
+    background-color: #2196f3;
+    font-family: 'Roboto', sans-serif;
+    border: #2196f3;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-portafolio {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-portafolio li {
+    display: inline-block;
+    background-color: #F5F4FA;
+    padding: 10px;
+    margin-right: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-portafolio li:hover {
+    background-color: #2196F3;
+    color: white;
+}
+
+.menu-portafolio li a {
+    text-decoration: none;
+    color: #212121;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(47, 48, 58, 1);
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
