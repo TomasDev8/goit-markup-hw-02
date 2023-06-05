@@ -1,1 +1,9 @@
+.social-links .link {
+    color: teal;
+}
 
+/* Dos o más selectores están separados por comas */
+.social-links .link:hover,
+.social-links .link:focus {
+    color: orange;
+}
